@@ -123,7 +123,7 @@ button:focus{
     height: auto;
     /* Position */
     margin-top: 50px;
-    margin-left: 15%;
+    margin-left: 10%;
     /* Flex */
     display: flex;
     justify-content: space-around;
@@ -435,8 +435,6 @@ article{
     /* Size */
     width: 30%;
     /* Position */
-    display: inline;
-    float: left;
 }
   
 .card img {
@@ -530,7 +528,7 @@ footer{
         height: auto;
         /* Position */
         margin-top: 50px;
-        margin-left: 9%;
+        margin-left: 12%;
         /* Flex */
         display: flex;
         justify-content: space-around;
@@ -546,13 +544,38 @@ footer{
         flex-direction: column;
     }
 
+    h3{
+        /* Font Style */
+        font-family: 'Teko', sans-serif;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        margin: 0px;
+    }
+
+    a{
+        /* Font Style */
+        font-family: 'Teko', sans-serif;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+    }
+
     /* Article body */
     .article-body{
         /* Size */
         width: 100%;
         /* Position */
-        padding: 15px;
+        padding: 2px;
         display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .article-cont{
+        /* Size */
+        width: 100%;
+        /* Position */
+        display: flex;
+        padding: none;
         flex-direction: column;
         justify-content: start;
     }
@@ -650,7 +673,7 @@ footer{
         height: 35px;
         /* Flex */ 
         display: flex;
-        justify-content: flex-end; 
+        justify-content: center; 
         /* Color */
         background-color: white;
         /* Remove selection */
@@ -708,6 +731,23 @@ footer{
         height: 100%;
     }
 
+    /* Card */
+    .card-bar{
+        /* Size */
+        width: 100%;
+        /* Position */
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .card {
+        /* Size */
+        width: 100%;
+        /* Position */
+        margin: 5px;
+    }
+
     .card img {
         /* Size */
         width: 100px;
@@ -716,7 +756,19 @@ footer{
         border-radius: 100%;
     }
 
+    .base{
+        /* Flex */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     
+    }
+    .foot{
+        /* Flex */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }    
 }
 
 /* w>= 576 && w<758 */
@@ -894,5 +946,42 @@ footer{
         height: 100%;
     }
 
+    /* Card */
+    .card-bar{
+        /* Size */
+        width: 100%;
+        /* Position */
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .card {
+        /* Size */
+        width: 100%;
+        /* Position */
+        margin: 20px;
+    }
+
+    .card img {
+        /* Size */
+        width: 100px;
+        height: 100px;
+        /* Style */
+        border-radius: 100%;
+    }
+
+    .base{
+        /* Flex */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     
+    }
+    .foot{
+        /* Flex */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }        
 }
