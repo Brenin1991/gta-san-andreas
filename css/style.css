@@ -525,7 +525,7 @@ footer{
 @media screen and (min-width: 0px) and (max-width: 576px) {
     .bone{
         /* Size */
-        width: 400px;
+        width: 450px;
         height: auto;
         /* Position */
         margin-top: 50px;
