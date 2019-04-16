@@ -123,7 +123,7 @@ button:focus{
     height: auto;
     /* Position */
     margin-top: 50px;
-    margin-left: 10%;
+    margin-left: 15%;
     /* Flex */
     display: flex;
     justify-content: space-around;
@@ -148,6 +148,7 @@ h1{
     /* Font Style */
     font-family: 'Teko', sans-serif;
     font-size: 70px;
+    margin: 5px;
     color: rgb(255, 255, 255);
 }
 
@@ -371,7 +372,7 @@ article{
     /* Size */
     width: 100%;
     /* Position */
-    padding: 15px;
+    padding: 0px;
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -528,7 +529,7 @@ footer{
         height: auto;
         /* Position */
         margin-top: 50px;
-        margin-left: 12%;
+        margin-left: 10%;
         /* Flex */
         display: flex;
         justify-content: space-around;
@@ -564,7 +565,7 @@ footer{
         /* Size */
         width: 100%;
         /* Position */
-        padding: 2px;
+        padding: 0px;
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -575,7 +576,8 @@ footer{
         width: 100%;
         /* Position */
         display: flex;
-        padding: none;
+        padding: 0px;
+        margin: 0px;
         flex-direction: column;
         justify-content: start;
     }
@@ -765,7 +767,7 @@ footer{
 
     .card {
         /* Size */
-        width: 90%;
+        width: 100%;
         /* Position */
         margin-top: 20px;
     }
@@ -801,7 +803,7 @@ footer{
         height: auto;
         /* Position */
         margin-top: 50px;
-        margin-left: 5%;
+        margin-left: 15%;
         /* Flex */
         display: flex;
         justify-content: space-around;
@@ -968,6 +970,28 @@ footer{
         height: 100%;
     }
 
+    /* Article body */
+    .article-body{
+        /* Size */
+        width: 100%;
+        /* Position */
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .article-cont{
+        /* Size */
+        width: 100%;
+        /* Position */
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+        flex-direction: column;
+        justify-content: start;
+    }
+
     .gallery-bar{
         /* Size */
         width: 100%;
@@ -1001,7 +1025,7 @@ footer{
 
     .card {
         /* Size */
-        width: 90%;
+        width: 100%;
         /* Position */
         margin-top: 20px;
     }
