@@ -745,7 +745,7 @@ footer{
         /* Size */
         width: 100%;
         /* Position */
-        margin: 5px;
+        margin-top: 20px;
     }
 
     .card img {
@@ -960,7 +960,7 @@ footer{
         /* Size */
         width: 100%;
         /* Position */
-        margin: 20px;
+        margin-top: 20px;
     }
 
     .card img {
