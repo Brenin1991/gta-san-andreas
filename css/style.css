@@ -522,7 +522,7 @@ footer{
 
 /* Responsividade */
 
-@media screen and (min-width: 576px) and (max-width: 768px)  {
+@media screen and (min-width: 0px) and (max-width: 600px)   {
     .bone{
         /* Size */
         width: 450px;
