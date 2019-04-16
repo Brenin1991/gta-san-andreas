@@ -731,6 +731,28 @@ footer{
         height: 100%;
     }
 
+    /* Gallery */
+    .gallery-bar{
+        /* Size */
+        width: 100%;
+        /* Position */
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+
+    .gallery {
+        /* Size */
+        width: 150px;
+        /* Position */
+        margin: 10px;
+        float: left;
+        /* Remove selection */
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+    }
+
     /* Card */
     .card-bar{
         /* Size */
@@ -743,7 +765,7 @@ footer{
 
     .card {
         /* Size */
-        width: 100%;
+        width: 90%;
         /* Position */
         margin-top: 20px;
     }
@@ -946,6 +968,27 @@ footer{
         height: 100%;
     }
 
+    .gallery-bar{
+        /* Size */
+        width: 100%;
+        /* Position */
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+
+    .gallery {
+        /* Size */
+        width: 150px;
+        /* Position */
+        margin: 10px;
+        float: left;
+        /* Remove selection */
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+    }
+
     /* Card */
     .card-bar{
         /* Size */
@@ -958,7 +1001,7 @@ footer{
 
     .card {
         /* Size */
-        width: 100%;
+        width: 90%;
         /* Position */
         margin-top: 20px;
     }
